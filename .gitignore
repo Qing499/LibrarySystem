@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------
+# 图书馆借阅管理系统 .gitignore
+# 只提交源码工程，编译产物与运行时数据不入库
+# ---------------------------------------------------------------
+
+# Visual Studio 用户/缓存文件
+.vs/
+*.user
+*.suo
+*.sdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.aps
+*.ipch
+*.ncb
+*.plg
+
+# 编译输出（本工程统一输出到 build/）
+build/
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.idb
+*.tlog
+*.log
+
+# 程序运行时生成的数据文件
+library_data.txt
+selftest_data.tmp
+*.tmp

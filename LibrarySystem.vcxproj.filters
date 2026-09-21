@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core 基础工具">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd;cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Model 数据模型">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd;cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Service 业务逻辑">
+      <UniqueIdentifier>{A1B2C3D4-1111-4222-8333-444455556666}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd;cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="UI 界面交互">
+      <UniqueIdentifier>{B2C3D4E5-2222-4333-8444-555566667777}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd;cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Test 自检测试">
+      <UniqueIdentifier>{C3D4E5F6-3333-4444-8555-666677778888}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd;cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Demo 类与对象演示">
+      <UniqueIdentifier>{D4E5F6A7-4444-4555-8666-777788889999}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd;cpp;c;cc;cxx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\Date.cpp">
+      <Filter>Core 基础工具</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Book.cpp">
+      <Filter>Model 数据模型</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\BorrowRecord.cpp">
+      <Filter>Model 数据模型</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Person.cpp">
+      <Filter>Model 数据模型</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Student.cpp">
+      <Filter>Model 数据模型</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Teacher.cpp">
+      <Filter>Model 数据模型</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Demo\ClassDemo.cpp">
+      <Filter>Demo 类与对象演示</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Service\Library.cpp">
+      <Filter>Service 业务逻辑</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\ConsoleUtils.cpp">
+      <Filter>UI 界面交互</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\main.cpp">
+      <Filter>UI 界面交互</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test\SelfTest.cpp">
+      <Filter>Test 自检测试</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Core\Config.h">
+      <Filter>Core 基础工具</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Date.h">
+      <Filter>Core 基础工具</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\TextUtils.h">
+      <Filter>Core 基础工具</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Book.h">
+      <Filter>Model 数据模型</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\BorrowRecord.h">
+      <Filter>Model 数据模型</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Person.h">
+      <Filter>Model 数据模型</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Student.h">
+      <Filter>Model 数据模型</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Teacher.h">
+      <Filter>Model 数据模型</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Service\Library.h">
+      <Filter>Service 业务逻辑</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\ConsoleUtils.h">
+      <Filter>UI 界面交互</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Test\SelfTest.h">
+      <Filter>Test 自检测试</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Demo\ClassDemo.h">
+      <Filter>Demo 类与对象演示</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
